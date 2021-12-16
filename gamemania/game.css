@@ -34,56 +34,61 @@
     font-size: 50px;
 }
 
-.jogos{
-
+.jogos {
+    display:right;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px 8px;
+    text-align: center;
+    align-items:center;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
     font-family: belleza;
-    display:flow-root;
-    align-items:baseline;
-    margin: 5px;
+  }
+
+  .j1{
+    background: #333;
+    color: white;
+    text-align: center;
+    align-items:center;
     border-radius: 5px;
+  }
+
+  .j2{
+    background: #333;
+    color: white;
+    text-align: center;
+    align-items:center;
+    border-radius: 5px;
+  }
+  .j3{
+    background: #333;
+    color: white;
+    text-align: center;
+    align-items:center;
+    border-radius: 5px;
+  }
+  .j4{
+    background: #333;
+    color: white;
+    text-align: center;
+    align-items:center;
+    border-radius: 5px;
+  }
+  .imagens{
     
+    text-align: center;
+    justify-content: center;
+   
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
 
 }
 
-.j1 {
-    margin: 15px;
-    text-align: center;
-    vertical-align:baseline;
-    padding: 10px;
-    background-color: rgb(12, 12, 107);
-    color: white;
-    align-items:unset;
-    border-radius: 5px;
-    
-    
-}
-.j2 {
-    margin: 15px;
-    text-align: center;
-    vertical-align:baseline;
-    padding: 10px;
-    background-color: rgb(12, 12, 107);
-    color: white;
-    border-radius: 5px;
-}
-.j3 {
-    margin: 15px;
-    text-align: center;
-    vertical-align:baseline;
-    padding: 10px;
-    background-color: rgb(12, 12, 107);
-    color: white;
-    border-radius: 5px;
-}
-.j4 {
-    margin: 15px;
-    text-align: center;
-    vertical-align:baseline;
-    padding: 10px;
-    background-color: rgb(12, 12, 107);
-    color: white;
-    border-radius: 5px;
-}
 .rodape {
     width: 100%;
     display: flex;
@@ -96,8 +101,4 @@
     margin-bottom: 0;
     font-family: belleza;
    
-}
-.imagens{
-    justify-content: center;
-    display:flex;
 }
